@@ -1,0 +1,11 @@
+<div class="form-group col-md-8 m-auto">
+<input 
+[(ngModel)]="myp.firstname"
+class="form-control col-md-6 mt-2" type="text" placeholder="firstname">
+<input 
+[(ngModel)]="myp.lastname"
+class="form-control col-md-6 mt-2" type="text" placeholder="lastname">
+<button
+(click)="OnSaveUser()"
+class="col-md-4 d-block m-auto btn btn-danger mt-2">Save</button>
+</div>
